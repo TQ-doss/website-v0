@@ -26,7 +26,7 @@ export default function Layout({ children }: LayoutProps) {
               <h4 className="text-white font-semibold mb-3">{t('links')}</h4>
               <ul className="space-y-2 text-sm">
                 <li><a href="/#features" className="hover:text-white transition-colors">Features</a></li>
-                <li><a href="/#pricing" className="hover:text-white transition-colors">{t('links')}</a></li>
+                <li><a href="/#pricing" className="hover:text-white transition-colors">{t('pricing')}</a></li>
                 <li><a href="/#blog" className="hover:text-white transition-colors">Blog</a></li>
               </ul>
             </div>

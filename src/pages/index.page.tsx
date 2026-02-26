@@ -12,7 +12,8 @@ export default function HomePage() {
   const meta = generateMetadata(
     'website-v0 — Build Faster, Ship Smarter',
     'A modern platform for teams who care about quality and speed.',
-    'https://website-v0.example.com'
+    'https://website-v0.example.com',
+    'https://website-v0.example.com/og-image.png'
   );
 
   const schemaJson = JSON.stringify({
