@@ -1,0 +1,24 @@
+{
+  "welcome": "Bienvenido",
+  "login": "Iniciar sesión",
+  "logout": "Cerrar sesión",
+  "settings": "Configuración",
+  "profile": "Perfil",
+  "help": "Ayuda",
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "blog": "Blog",
+    "pricing": "Precios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Bienvenido a nuestro sitio web",
+    "subtitle": "Ofrecemos los mejores servicios profesionales",
+    "cta": "Empezar"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}
