@@ -1,0 +1,42 @@
+.scroll-reveal {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.scroll-reveal.visible {
+  opacity: 1;
+}
+
+.magnetic-pull {
+  transition: transform 0.2s;
+}
+.magnetic-pull:hover {
+  transform: scale(1.1);
+}
+
+.circular-wipe {
+  position: relative;
+  overflow: hidden;
+}
+.circular-wipe::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  border-radius: 50%;
+  background: #F9F9F9;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s ease;
+}
+
+.circular-wipe.visible::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
