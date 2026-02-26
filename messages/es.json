@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "blog": "Blog",
+    "pricing": "Precios",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "headline": "Construye Más Rápido, Envía Más Inteligente",
+    "subheadline": "Una plataforma moderna para equipos que se preocupan por la calidad y la velocidad.",
+    "cta": "Empezar",
+    "ctaSecondary": "Saber más"
+  },
+  "features": {
+    "title": "Todo lo que necesitas",
+    "subtitle": "Todas las herramientas y funciones para construir tu próximo gran producto.",
+    "item1Title": "Increíblemente Rápido",
+    "item1Desc": "Optimizado para el rendimiento desde el primer día.",
+    "item2Title": "Totalmente Personalizable",
+    "item2Desc": "Adapta cada componente para que coincida con tu marca.",
+    "item3Title": "Listo para el Mundo",
+    "item3Desc": "Internacionalización integrada para cualquier mercado.",
+    "item4Title": "Seguro por Defecto",
+    "item4Desc": "Seguridad de nivel empresarial lista para usar."
+  },
+  "pricing": {
+    "title": "Precios simples y transparentes",
+    "subtitle": "Sin tarifas ocultas. Cancela en cualquier momento.",
+    "monthly": "Mensual",
+    "annually": "Anual",
+    "saveLabel": "Ahorra 20%",
+    "tier1Name": "Inicial",
+    "tier1Price": "0",
+    "tier1Features": ["5 proyectos", "10 GB de almacenamiento", "Soporte comunitario"],
+    "tier2Name": "Pro",
+    "tier2Price": "29",
+    "tier2Features": ["Proyectos ilimitados", "100 GB de almacenamiento", "Soporte prioritario", "Análisis avanzado"],
+    "tier3Name": "Empresarial",
+    "tier3Price": "99",
+    "tier3Features": ["Proyectos ilimitados", "1 TB de almacenamiento", "Soporte dedicado", "Integraciones personalizadas", "Garantía SLA"],
+    "cta": "Empezar",
+    "popular": "Más Popular"
+  },
+  "blog": {
+    "title": "Últimas entradas del Blog",
+    "subtitle": "Perspectivas, tutoriales y actualizaciones de nuestro equipo.",
+    "readMore": "Leer más",
+    "post1Title": "Comenzando con Next.js 13",
+    "post1Excerpt": "Aprende a configurar una aplicación Next.js moderna con App Router, TypeScript y Tailwind CSS.",
+    "post2Title": "Diseñando con Colores OKLCH",
+    "post2Excerpt": "Por qué los espacios de color perceptuales son el futuro de los sistemas de diseño.",
+    "post3Title": "Construyendo un Diseño Bento Grid",
+    "post3Excerpt": "Crea hermosos diseños responsivos estilo Bento con CSS Grid y Tailwind CSS."
+  },
+  "footer": {
+    "tagline": "Construido con amor y herramientas modernas.",
+    "copyright": "© 2024 website-v0. Todos los derechos reservados.",
+    "links": "Enlaces",
+    "pricing": "Precios",
+    "legal": "Legal",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio"
+  },
+  "common": {
+    "welcome": "Bienvenido",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "help": "Ayuda"
+  }
+}

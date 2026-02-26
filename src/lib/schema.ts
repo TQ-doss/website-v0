@@ -1,23 +1,40 @@
-import { Schema, setSchema } from 'jsonld-schema-builder';
+// src/lib/schema.ts
 
-// Define the ProfessionalService schema
-const professionalService = new Schema('ProfessionalService', {
+// JSON-LD Structured Data Schemas
+
+interface ProfessionalServiceSchema {
+    '@context': string;
+    '@type': string;
+    name: string;
+    serviceType: string;
+    areaServed: string;
+    provider: string;
+}
+
+interface SoftwareSourceCodeSchema {
+    '@context': string;
+    '@type': string;
+    codeRepository: string;
+    programmingLanguage: string;
+    operatingSystem: string;
+}
+
+const professionalService: ProfessionalServiceSchema = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    name: '',  // Add the name of the service
-    serviceType: '',  // Define the type of service
-    areaServed: '',  // Define the area served
-    provider: '',  // Define the provider of the service
-});
+    name: '',
+    serviceType: '',
+    areaServed: '',
+    provider: '',
+};
 
-// Define the SoftwareSourceCode schema
-const softwareSourceCode = new Schema('SoftwareSourceCode', {
+const softwareSourceCode: SoftwareSourceCodeSchema = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareSourceCode',
-    codeRepository: '',  // URL to the code repository
-    programmingLanguage: '',  // Specify programming language
-    operatingSystem: '',  // Specify OS details
-});
+    codeRepository: '',
+    programmingLanguage: '',
+    operatingSystem: '',
+};
 
-// Export schemas
 export { professionalService, softwareSourceCode };
+export type { ProfessionalServiceSchema, SoftwareSourceCodeSchema };
