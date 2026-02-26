@@ -1,18 +1,15 @@
 // next.config.js
-const nextIntl = require('next-intl/plugin')
-
-module.exports = {
-  experimental: {
-    pages: true,
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   i18n: {
-    locales: ['en', 'fr', 'es'],
+    locales: ['en', 'fr', 'es', 'ar'],
     defaultLocale: 'en',
   },
-  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js', 'page.mjs'],
+  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js'],
   reactStrictMode: true,
-  swcMinify: true,
   images: {
-    domains: ['example.com'], // Replace with your image domains
+    domains: ['example.com'],
   },
 };
+
+module.exports = nextConfig;

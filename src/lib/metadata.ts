@@ -9,7 +9,7 @@ interface Metadata {
     canonicalUrl: string;
 }
 
-function generateMetadata(title: string, description: string, ogImage?: string, canonicalUrl: string): Metadata {
+function generateMetadata(title: string, description: string, canonicalUrl: string, ogImage?: string): Metadata {
     return {
         title,
         description,
