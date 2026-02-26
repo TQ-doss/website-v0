@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Build Faster, Ship Smarter",
+    "subheadline": "A modern platform for teams who care about quality and speed.",
+    "cta": "Get Started",
+    "ctaSecondary": "Learn More"
+  },
+  "features": {
+    "title": "Everything you need",
+    "subtitle": "All the tools and features to build your next great product.",
+    "item1Title": "Lightning Fast",
+    "item1Desc": "Optimized for performance from day one.",
+    "item2Title": "Fully Customizable",
+    "item2Desc": "Adapt every component to match your brand.",
+    "item3Title": "Global Ready",
+    "item3Desc": "Built-in internationalization for any market.",
+    "item4Title": "Secure by Default",
+    "item4Desc": "Enterprise-grade security out of the box."
+  },
+  "pricing": {
+    "title": "Simple, transparent pricing",
+    "subtitle": "No hidden fees. Cancel anytime.",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "saveLabel": "Save 20%",
+    "tier1Name": "Starter",
+    "tier1Price": "0",
+    "tier1Features": ["5 projects", "10 GB storage", "Community support"],
+    "tier2Name": "Pro",
+    "tier2Price": "29",
+    "tier2Features": ["Unlimited projects", "100 GB storage", "Priority support", "Advanced analytics"],
+    "tier3Name": "Enterprise",
+    "tier3Price": "99",
+    "tier3Features": ["Unlimited projects", "1 TB storage", "Dedicated support", "Custom integrations", "SLA guarantee"],
+    "cta": "Get Started",
+    "popular": "Most Popular"
+  },
+  "blog": {
+    "title": "Latest from the Blog",
+    "subtitle": "Insights, tutorials, and updates from our team.",
+    "readMore": "Read more",
+    "post1Title": "Getting Started with Next.js 13",
+    "post1Excerpt": "Learn how to set up a modern Next.js application with App Router, TypeScript, and Tailwind CSS.",
+    "post2Title": "Designing with OKLCH Colors",
+    "post2Excerpt": "Why perceptual color spaces are the future of design systems and how to use them today.",
+    "post3Title": "Building a Bento Grid Layout",
+    "post3Excerpt": "Create beautiful, responsive Bento-style layouts with CSS Grid and Tailwind CSS."
+  },
+  "footer": {
+    "tagline": "Built with love and modern tooling.",
+    "copyright": "© 2024 website-v0. All rights reserved.",
+    "links": "Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "welcome": "Welcome",
+    "login": "Login",
+    "logout": "Logout",
+    "settings": "Settings",
+    "profile": "Profile",
+    "help": "Help"
+  }
+}
