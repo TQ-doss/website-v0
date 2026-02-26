@@ -1,0 +1,38 @@
+:root {
+  --font-size: 1rem;
+  --line-height: 1.5;
+  --color-primary: oklch(0.621 0.179 0.194);
+  --color-secondary: oklch(0.521 0.245 0.189);
+  --color-tertiary: oklch(0.322 0.178 0.241);
+}
+
+body {
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--color-primary);
+}
+
+@media (min-width: 600px) {
+  :root {
+    --font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  :root {
+    --font-size: 1.5rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
